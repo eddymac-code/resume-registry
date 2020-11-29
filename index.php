@@ -11,7 +11,7 @@ session_start();
 </head>
 <body>
 <div class="container">
-<h1>Edwin Oduor's Resume Registry</h1>
+<h1>Resume Registry</h1>
 
 <?php
 if (! isset($_SESSION['name'])) {
