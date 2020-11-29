@@ -1,0 +1,20 @@
+function validateForm() {
+	console.log('Validating...');
+	try {
+		addr = document.getElementById('email').value;
+		pw = document.getElementById('id_1723').value;
+		console.log("Validating addr="+addr+" pw="+pw);
+		if (addr == null || addr == "" || pw == null || pw == "") {
+			alert("Please input all values");
+			return false;
+		} 
+		if (addr.indexOf('@') == -1) {
+			alert("Invalid email address");
+			return false;
+		}
+		return true;
+	} catch(e) {
+		return false;
+	}
+	return false;
+}	
