@@ -50,7 +50,7 @@ isset($_POST['headline']) && isset($_POST['summary'])) {
 <html>
 <head>
 	<title>Add Resume</title>
-	<?php require_once("bootstrap.php"); ?>
+	<?php require_once("head.php"); ?>
 </head>
 <body>
 <div class="container">

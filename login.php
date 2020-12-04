@@ -53,7 +53,7 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['pass'])) {
 <html>
 <head>
 	<title>Login</title>
-	<?php require_once("bootstrap.php"); ?>
+	<?php require_once("head.php"); ?>
 </head>
 <body>
 <div class="container">

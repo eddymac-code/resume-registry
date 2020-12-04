@@ -7,7 +7,7 @@ session_start();
 <html>
 <head>
 	<title>Edwin Oduor's Resume Registry</title>
-	<?php require_once("bootstrap.php"); ?>
+	<?php require_once("head.php"); ?>
 </head>
 <body>
 <div class="container">
